@@ -4,9 +4,9 @@ body{
 }
 .first{
     width: 100%;
-    height: 340px;
+    height: 100%;
     background-image: linear-gradient(to right, red , yellow);
-
+    padding-bottom: 20px;
 }
 .header_text{
     font-size: 20px;
@@ -16,16 +16,72 @@ body{
     padding-top: 15px;
 }
 .box{
-    width: 100%;
     padding-top: 20px;
-    padding-left: 20px;
+    display: flex;
 }
 .sub_box{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     width: 230px;
-    height: 260px;
+    height: 270px;
     background-color: white;
     border-radius: 15px;
+    cursor: pointer;
+}
+.sub_box:hover{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 270px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #645b5b;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.img_like{
+    width: 30px;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.center_img{
+    width: 170px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.stars{
+    width: 130px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.cart{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.second{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, blue , purple);
+    padding-bottom: 20px;
+}
+.banner{
+    width: 100%;
 }
